@@ -9,9 +9,10 @@ export const COLORS = {
   green: '#E66D59',
   lightGreen: '#E6FEF0',
 
-  lime: '#00BA63',
+  //lime: '#00BA63',
+  lime: '#6F64FF',
   emerald: '#2BC978',
-
+  
   red: '#FF4134',
   lightRed: '#FFF1F0',
 
@@ -68,9 +69,9 @@ export const FONTS = {
   h4: {fontFamily: 'Roboto-Bold', fontSize: SIZES.h4, lineHeight: 20},
   body1: {fontFamily: 'Roboto-Regular', fontSize: SIZES.body1, lineHeight: 36},
   body2: {fontFamily: 'Roboto-Regular', fontSize: SIZES.body2, lineHeight: 30},
-  body3: {fontFamily: 'Roboto-Regular', fontSize: SIZES.body1, lineHeight: 22},
-  body4: {fontFamily: 'Roboto-Regular', fontSize: SIZES.body1, lineHeight: 22},
-  body5: {fontFamily: 'Roboto-Regular', fontSize: SIZES.body2, lineHeight: 20},
+  body3: {fontFamily: 'Roboto-Regular', fontSize: SIZES.body3, lineHeight: 22},
+  body4: {fontFamily: 'Roboto-Regular', fontSize: SIZES.body4, lineHeight: 22},
+  body5: {fontFamily: 'Roboto-Regular', fontSize: SIZES.body5, lineHeight: 20},
 };
 
 const appTheme = {COLORS, SIZES, FONTS};
