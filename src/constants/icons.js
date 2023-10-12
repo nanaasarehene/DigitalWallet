@@ -9,7 +9,7 @@ const game = require('../assets/icons/game.png');
 const barcode = require('../assets/icons/barcode.png');
 const info = require('../assets/icons/info.png');
 const internet = require('../assets/icons/internet.png');
-const more = require('../assets/icons/more.png');
+const home = require('../assets/icons/home.png');
 const phone = require('../assets/icons/phone.png');
 const reload = require('../assets/icons/reload.png');
 const scan = require('../assets/icons/scan.png');
@@ -29,7 +29,7 @@ export default {
   barcode,
   info,
   internet,
-  more,
+  home,
   phone,
   reload,
   scan,

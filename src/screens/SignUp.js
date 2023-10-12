@@ -22,17 +22,8 @@ import {SIZES} from '../constants/theme';
 import icons from '../constants/icons';
 import {FONTS} from '../constants/theme';
 
-
-interface CountryData {
-  alpha2Code: string;
-  name: string;
-  callingCodes: string[];
-  flag: string;
-
-}
-
 //define functional component for the signup screen
-const SignUp = () => {
+const SignUp = ({navigation}) => {
   const [showPassword, setShowPassword] = React.useState(false);
   const [areas, setAreas] = React.useState([]);
   const [selectedArea, setSelectedArea] = React.useState('');
@@ -42,34 +33,29 @@ const SignUp = () => {
   const [fullName, setFullName] = React.useState('');
   const [phoneNumber, setPhoneNumber] = useState('');
 
-
   //uses effect hooks to watch the countries data
   React.useEffect(() => {
-    fetch('https://restcountries.com/v3.1/all')
+    fetch('https://api.country.is/v1/countries')
       .then(response => response.json())
       .then(data => {
-        console.log('Data from the API:', data);
-        let areaData = data.map((item: CountryData) => {
+        //console.log('Data from the API:', data);
+        let areaData = data.map(item => {
           return {
             code: item.alpha2Code,
             name: item.name,
             callingCode: `+${item.callingCodes[0]}`,
-            flag: `https://www.countryflags.io/${item.alpha2Code}/flat/64.png`,
+            flag: `https://www.flagsapi.com/${item.alpha2Code}/flat/64.png`,
           };
         });
         console.log('areaData:', areaData);
         setAreas(areaData);
-
-        if (areaData.length >= 0) {
+        if (areaData.length > 0) {
           let defaultData = areaData.filter(a => a.code === 'US');
 
           if (defaultData.length > 0) {
             setSelectedArea(defaultData[0]);
           }
         }
-      })
-      .catch(error => {
-        console.error('Error fetching data:', error);
       });
   }, []);
 
@@ -130,7 +116,6 @@ const SignUp = () => {
 
   //handle and render the form view of the name input
   function renderForm() {
-
     //handle the full name input actios
     const handleFullNameChange = text => {
       const lettersOnly = text.replace(/[^a-zA-Z\s]/g, '');
@@ -141,7 +126,7 @@ const SignUp = () => {
     };
 
     //handle the phone number input actions
-    const handlePhoneNumberChange = (text) => {
+    const handlePhoneNumberChange = text => {
       const phoneNumberPattern = /^[0-9]{10}$/;
       if (phoneNumberPattern.test(text)) {
         setPhoneNumber(text);
@@ -180,6 +165,8 @@ const SignUp = () => {
             onChangeText={handleFullNameChange}
           />
         </View>
+
+
 
         {/*Phone Number input  view for the signup screen**************************************************/}
         <View style={{marginTop: SIZES.padding * 2}}>
@@ -302,7 +289,7 @@ const SignUp = () => {
             alignItems: 'center',
             justifyContent: 'center',
           }}
-          onPress={() => console.log('Welcome Home')}>
+          onPress={() => navigation.navigate('Home')}>
           <Text style={{color: COLORS.white, ...FONTS.h3}}>Next</Text>
         </TouchableOpacity>
       </View>
