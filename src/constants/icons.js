@@ -16,6 +16,8 @@ const scan = require('../assets/icons/scan.png');
 const send = require('../assets/icons/send.png');
 const user = require('../assets/icons/user.png');
 const wallet = require('../assets/icons/wallet.png');
+const more = require('../assets/icons/more.png');
+
 
 export default {
   back,
@@ -36,4 +38,5 @@ export default {
   send,
   user,
   wallet,
+  more,
 };
