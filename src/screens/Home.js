@@ -104,6 +104,28 @@ const Home = () => {
   const [features, setFeatures] = React.useState(appFeaturesData);
   const [specialPromo, setSpecialPromo] = React.useState(specialPromoData);
 
+
+  //render header function here 
+  function renderHeader (){
+    return(
+      <View style={{flexDirection: 'row', marginVertical: SIZES.padding * 2}}>
+        <View style={{flex: 1}}>
+          <Text style={{...FONTS.h1}}>Hello</Text>
+          <Text style={{...FONTS.body2, color: COLORS.gray}}>dev_nana</Text>
+        </View>
+      </View>
+    )
+  }
+
+  // this function holds the header component
+  const HeaderComponent = () => {
+    return(
+      <View>
+        {renderHeader()}
+      </View>
+    )
+  }
+
   //renderPromos function component here
   function renderPromos() {
     const renderItem = ({item}) => (
@@ -138,8 +160,7 @@ const Home = () => {
             backgroundColor: COLORS.lightGray,
             borderBottomLeftRadius: 20,
             borderBottomRightRadius: 20,
-          }}
-        >
+          }}>
           <Text style={{...FONTS.h4}}>{item.title}</Text>
           <Text style={{...FONTS.body4}}>{item.description}</Text>
         </View>
@@ -148,6 +169,7 @@ const Home = () => {
 
     return (
       <FlatList
+        ListHeaderComponent={renderHeader}
         contentContainerStyle={{paddingHorizontal: SIZES.padding * 3}}
         numColumns={2}
         columnWrapperStyle={{justifyContent: 'space-between'}}
