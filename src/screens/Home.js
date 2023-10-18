@@ -113,21 +113,68 @@ const Home = () => {
           <Text style={{...FONTS.h1}}>Hello</Text>
           <Text style={{...FONTS.body2, color: COLORS.gray}}>dev_nana</Text>
         </View>
+
+        <View style={{alignItems: 'center', justifyContent: 'center'}}>
+          <TouchableOpacity
+            style={{
+              height: 40,
+              width: 40,
+              backgroundColor: COLORS.lightGray,
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}
+          >
+            <Image 
+              source={icons.bell}
+              style={{
+                width: 20,
+                height: 20,
+                tintColor: COLORS.secondary
+              }}
+            />
+
+            <View style={{position: 'absolute', top: -5, right: -5, height: 10, width: 10, backgroundColor: 'red', borderRadius: 5 }}>
+              
+            </View>
+          </TouchableOpacity>
+        </View>
+
       </View>
+
+
     )
   }
 
-  // this function holds the header component
-  const HeaderComponent = () => {
+  //render Banner component 
+  function renderBanner(){
     return(
-      <View>
-        {renderHeader()}
+      <View style={{height: 120, borderRadius: 20,}}>
+        <Image 
+          source={images.promoBanner}
+          resizeMode='cover'
+          style={{
+            width: '100%',
+            height: '100%',
+            borderRadius: 20,
+          }}
+        />
       </View>
     )
   }
 
   //renderPromos function component here
   function renderPromos() {
+
+        // this function holds the header component
+      const HeaderComponent = () => {
+        return(
+          <View>
+            {renderHeader()}
+            {renderBanner()}
+          </View>
+        )
+      }
+
     const renderItem = ({item}) => (
       <TouchableOpacity
         style={{
