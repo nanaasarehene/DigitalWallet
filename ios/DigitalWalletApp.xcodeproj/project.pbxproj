@@ -11,9 +11,9 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		5C638AC6C20C21C4CFC1081B /* Pods_DigitalWalletApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1ED266E8870B43972652DC /* Pods_DigitalWalletApp.framework */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		8DAFA3DC6C22F6DB09607D17 /* libPods-DigitalWalletApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AFD7B3A35B3493AECFAC2D5 /* libPods-DigitalWalletApp.a */; };
-		D9925673C6DEDC46F4B0F079 /* libPods-DigitalWalletApp-DigitalWalletAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C3BF67742A00534E89DC69B /* libPods-DigitalWalletApp-DigitalWalletAppTests.a */; };
+		F35C88EEFB1B4CA2B55D496C /* Pods_DigitalWalletAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06B9C24FB477699ADE735722 /* Pods_DigitalWalletAppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +30,8 @@
 		00E356EE1AD99517003FC87E /* DigitalWalletAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigitalWalletAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* DigitalWalletAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DigitalWalletAppTests.m; sourceTree = "<group>"; };
+		06B9C24FB477699ADE735722 /* Pods_DigitalWalletAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigitalWalletAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C1ED266E8870B43972652DC /* Pods_DigitalWalletApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigitalWalletApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* DigitalWalletApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigitalWalletApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DigitalWalletApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = DigitalWalletApp/AppDelegate.mm; sourceTree = "<group>"; };
@@ -38,11 +40,11 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DigitalWalletApp/main.m; sourceTree = "<group>"; };
 		431A944C319BFF8223949CA0 /* Pods-DigitalWalletApp-DigitalWalletAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalWalletApp-DigitalWalletAppTests.debug.xcconfig"; path = "Target Support Files/Pods-DigitalWalletApp-DigitalWalletAppTests/Pods-DigitalWalletApp-DigitalWalletAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		611F646EE2A96394BF5C5C66 /* Pods-DigitalWalletApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalWalletApp.release.xcconfig"; path = "Target Support Files/Pods-DigitalWalletApp/Pods-DigitalWalletApp.release.xcconfig"; sourceTree = "<group>"; };
-		6AFD7B3A35B3493AECFAC2D5 /* libPods-DigitalWalletApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DigitalWalletApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B7205E580ADEA234FBCC394 /* Pods-DigitalWalletApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalWalletApp.debug.xcconfig"; path = "Target Support Files/Pods-DigitalWalletApp/Pods-DigitalWalletApp.debug.xcconfig"; sourceTree = "<group>"; };
+		7D1352EA2588BCCF49542DDF /* Pods-DigitalWalletAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalWalletAppTests.debug.xcconfig"; path = "Target Support Files/Pods-DigitalWalletAppTests/Pods-DigitalWalletAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = DigitalWalletApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D35D3ED48BCF12D6FB6FF9A /* Pods-DigitalWalletApp-DigitalWalletAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalWalletApp-DigitalWalletAppTests.release.xcconfig"; path = "Target Support Files/Pods-DigitalWalletApp-DigitalWalletAppTests/Pods-DigitalWalletApp-DigitalWalletAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		9C3BF67742A00534E89DC69B /* libPods-DigitalWalletApp-DigitalWalletAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DigitalWalletApp-DigitalWalletAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95967324D44FD7C4FA01DBB /* Pods-DigitalWalletAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigitalWalletAppTests.release.xcconfig"; path = "Target Support Files/Pods-DigitalWalletAppTests/Pods-DigitalWalletAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -51,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9925673C6DEDC46F4B0F079 /* libPods-DigitalWalletApp-DigitalWalletAppTests.a in Frameworks */,
+				F35C88EEFB1B4CA2B55D496C /* Pods_DigitalWalletAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DAFA3DC6C22F6DB09607D17 /* libPods-DigitalWalletApp.a in Frameworks */,
+				5C638AC6C20C21C4CFC1081B /* Pods_DigitalWalletApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				6AFD7B3A35B3493AECFAC2D5 /* libPods-DigitalWalletApp.a */,
-				9C3BF67742A00534E89DC69B /* libPods-DigitalWalletApp-DigitalWalletAppTests.a */,
+				0C1ED266E8870B43972652DC /* Pods_DigitalWalletApp.framework */,
+				06B9C24FB477699ADE735722 /* Pods_DigitalWalletAppTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -144,6 +146,8 @@
 				611F646EE2A96394BF5C5C66 /* Pods-DigitalWalletApp.release.xcconfig */,
 				431A944C319BFF8223949CA0 /* Pods-DigitalWalletApp-DigitalWalletAppTests.debug.xcconfig */,
 				8D35D3ED48BCF12D6FB6FF9A /* Pods-DigitalWalletApp-DigitalWalletAppTests.release.xcconfig */,
+				7D1352EA2588BCCF49542DDF /* Pods-DigitalWalletAppTests.debug.xcconfig */,
+				B95967324D44FD7C4FA01DBB /* Pods-DigitalWalletAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -159,8 +163,6 @@
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				016FFF6F18477E5DB497AFD2 /* [CP] Embed Pods Frameworks */,
-				03330E602F7A4C3E9A239860 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,8 +184,6 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				19858BBC35E93CC9B6286E72 /* [CP] Embed Pods Frameworks */,
-				67721FEDAE1359FC242EB7E6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,7 +200,8 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1210;
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
@@ -266,57 +267,6 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		016FFF6F18477E5DB497AFD2 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DigitalWalletApp-DigitalWalletAppTests/Pods-DigitalWalletApp-DigitalWalletAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DigitalWalletApp-DigitalWalletAppTests/Pods-DigitalWalletApp-DigitalWalletAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DigitalWalletApp-DigitalWalletAppTests/Pods-DigitalWalletApp-DigitalWalletAppTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		03330E602F7A4C3E9A239860 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DigitalWalletApp-DigitalWalletAppTests/Pods-DigitalWalletApp-DigitalWalletAppTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DigitalWalletApp-DigitalWalletAppTests/Pods-DigitalWalletApp-DigitalWalletAppTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DigitalWalletApp-DigitalWalletAppTests/Pods-DigitalWalletApp-DigitalWalletAppTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		19858BBC35E93CC9B6286E72 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DigitalWalletApp/Pods-DigitalWalletApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DigitalWalletApp/Pods-DigitalWalletApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DigitalWalletApp/Pods-DigitalWalletApp-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		240607715A37E9A0EC9CB886 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -354,28 +304,11 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DigitalWalletApp-DigitalWalletAppTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DigitalWalletAppTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		67721FEDAE1359FC242EB7E6 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DigitalWalletApp/Pods-DigitalWalletApp-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DigitalWalletApp/Pods-DigitalWalletApp-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DigitalWalletApp/Pods-DigitalWalletApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -430,8 +363,9 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 431A944C319BFF8223949CA0 /* Pods-DigitalWalletApp-DigitalWalletAppTests.debug.xcconfig */;
+			baseConfigurationReference = 7D1352EA2588BCCF49542DDF /* Pods-DigitalWalletAppTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -457,8 +391,9 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D35D3ED48BCF12D6FB6FF9A /* Pods-DigitalWalletApp-DigitalWalletAppTests.release.xcconfig */;
+			baseConfigurationReference = B95967324D44FD7C4FA01DBB /* Pods-DigitalWalletAppTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = DigitalWalletAppTests/Info.plist;
