@@ -1,17 +1,18 @@
-const walletLogo = require('../assets/images/wallet-logo.png');
-const banner = require('../assets/images/banner.png');
-const promoBanner = require('../assets/images/promo-banner.png');
-const focus = require('../assets/images/focus.png');
+const wallieLogo = require("../assets/images/wallie-logo.png");
+const banner = require("../assets/images/banner.png");
+const promoBanner = require("../assets/images/promo-banner.png");
+const focus = require("../assets/images/focus.png");
 
-// dummy data to be use
-const usFlag = require('../assets/images/us-flag.png');
+// Dummy
+const usFlag = require("../assets/images/us-flag.jpg");
+
 
 export default {
-  walletLogo,
-  banner,
-  promoBanner,
-  focus,
+    wallieLogo,
+    banner,
+    promoBanner,
+    focus,
 
-  //dummy data to be used
-  usFlag,
-};
+    // Dummy
+    usFlag
+}
